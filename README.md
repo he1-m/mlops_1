@@ -221,9 +221,9 @@ vehicle-mlops/
 
 ## 👨‍💻 Author
 
-**Subrat Bahuguna**
-*MLOps | AI Engineer | Python Enthusiast*
-[LinkedIn](https://www.linkedin.com/) • [GitHub](https://github.com/) • [Portfolio](#)
+**Hemant Joshi**
+*MLOps * Python Enthusiast*
+ [GitHub](https://github.com/he1-m) 
 
 ---
 
