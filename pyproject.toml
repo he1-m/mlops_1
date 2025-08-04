@@ -1,0 +1,21 @@
+# This is used to install our local packages present in src to our environment , since when running anything
+# inside src, we might get an issue even after requirements.txt, therefore to install src also in our environment
+# we use setup.py file and pyproject.toml
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "src"
+version = "0.0.1"
+description = "A Python project scaffolded by Subrat"
+authors = [
+    { name="Subrat Bahuguna", email="bahuguna.subrat211996@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
